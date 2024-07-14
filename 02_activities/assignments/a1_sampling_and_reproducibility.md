@@ -10,13 +10,42 @@ Modify the number of repetitions in the simulation to 1000 (from the original 50
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Mykhailo Vitvinov
 
 ```
 Please write your explanation here...
 
-```
+The code in `whitby_covid_tracing.py` involves sampling at several stages:
 
+**Event Assignment**:
+- **Function**: `simulate_event`
+- **Sample Size**: 1000 individuals
+- **Sampling Frame**: `['wedding'] * 200 + ['brunch'] * 800`
+- **Underlying Distribution**: Deterministic assignment (20% wedding, 80% brunch)
+- **Description**: Each individual is assigned to either a wedding or a brunch event.
+
+**Infection Sampling**:
+- **Function**: `simulate_event`
+- **Sample Size**: 10% of the total individuals (based on `ATTACK_RATE`)
+- **Sampling Frame**: All individuals
+- **Underlying Distribution**: Uniform random selection
+- **Description**: A random 10% of individuals are marked as infected.
+
+**Primary Tracing Sampling**:
+- **Function**: `simulate_event`
+- **Sample Size**: 20% of infected individuals (based on `TRACE_SUCCESS`)
+- **Sampling Frame**: Infected individuals
+- **Underlying Distribution**: Bernoulli trial for each infected individual with a success probability of 0.2
+- **Description**: Each infected individual has a 20% chance of being traced.
+
+**Secondary Tracing Sampling**:
+- **Function**: `simulate_event`
+- **Sample Size**: Varies based on the number of traced individuals per event
+- **Sampling Frame**: Individuals at events with at least 2 traced individuals
+- **Underlying Distribution**: Deterministic based on the event threshold
+- **Description**: All infected individuals at events with at least two traced individuals are marked as traced.
+
+![Impact of Contact Tracing on Perceived Infection sources](Figure_1.png)
 
 ## Criteria
 
