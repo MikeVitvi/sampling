@@ -16,27 +16,35 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
 write your answer here...
 ```
+The purpose of this survey is to understand the reasons behind the high turnover rate among entry- and lower-level employees in our tech company. The insights gained will help identify key factors affecting employee satisfaction and guide the implementation of improvements to retain talent.
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
 ```
+**Target Population:** Entry- and lower-level employees who have left the company in the past six months, as well as current employees in these positions.
+
+**Sampling Frame:** Employee records and contact information for those who have recently left the company, along with a current list of entry- and lower-level employees.
+
+**Sampling Units:** Individual employees, both former and current, from the identified positions.
+
+**Overall Sampling Strategy:** We will use a stratified random sampling method. This involves dividing the target population into two strata: former employees and current employees. Within each stratum, we will randomly select participants to ensure a representative sample of both groups. This strategy allows us to compare perspectives from those who have left and those who are still with the company.
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
+1. What was your primary reason for leaving the company?
+2. How satisfied are you with your current role in the company?
+3. What factors contribute most to your job satisfaction?
+4. How often did/do you feel stressed at work?
+5. How would you rate the support and resources provided by the company to help you succeed in your role?
+6. How likely are you to recommend this company as a good place to work to your friends and colleagues?
+7. How effective do you find the communication within your team and with management?
 8. write your question here... (optional)
 9. write your question here... (optional)
 10. write your question here... (optional)
