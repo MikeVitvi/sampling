@@ -1,18 +1,4 @@
-# Assignment: Questionnaire Design (Part A)
-
-## Requirements
-Select one of the scenarios below and design a survey to meet the need(s) outlined in the prompt.
-
-1.	In two to three sentences, describe the purpose of your survey
-2.	Describe your target population, sampling frame, sampling units, and overall sampling strategy.
-3.	Write a 5-10 question survey to address your chosen scenario below.
-
-
-### Scenarios
-1.	You work in the Human Resources Department at a large tech company. Over the past few months, the company has been experiencing a high turnover rate across many of its departments, specifically within the entry- and lower-level positions. The company wishes to understand why this turnover is happening, and what changes need to occur to improve employee satisfaction.
-2.	You work for a Canadian national political party during a federal election. Throughout the campaign period, your party has seen relatively high approval ratings, but an opposing party is also polling favorably and may still have a chance to win the election. You are one month away from the election and you want to understand what voters want from your party and its leader in order to maintain your lead and eventually win the election.
-3.	You are a student researcher in the sociology department at the University of Toronto. You are working on a research project that concerns the relationship between music taste and age. This involves both comparisons between different people of different ages and comparisons of the same individual at different ages during their lifetime. You wish to understand to what extent age influences music taste, specifically as it relates to perceptions of popular music. Your results will be written into an academic paper that you hope to publish.
-
+# Revised Survey for Assignment_a : Questionnaire Design (Part A)
 
 # Your Changes
 
@@ -20,34 +6,74 @@ The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to gain a deeper understanding of the high turnover rate among entry- and lower-level employees at our tech company. The insights from this survey will help identify key factors impacting employee satisfaction and provide actionable recommendations to improve retention and overall employee satisfaction.
 ```
-The purpose of this survey is to understand the reasons behind the high turnover rate among entry- and lower-level employees in our tech company. The insights gained will help identify key factors affecting employee satisfaction and guide the implementation of improvements to retain talent.
-
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
-```
-**Target Population:** Entry- and lower-level employees who have left the company in the past six months, as well as current employees in these positions.
+Target Population: Entry and Lowervlevel employees who have left the company in the past six months, along with current employees in these roles.
 
-**Sampling Frame:** Employee records and contact information for those who have recently left the company, along with a current list of entry- and lower-level employees.
+Sampling Frame:vA comprehensive list of all former and current entry and lowervlevel employees, obtained from HR records.
 
-**Sampling Units:** Individual employees, both former and current, from the identified positions.
+Sampling Units: Individual employees, categorized into two groups: former and current.
 
-**Overall Sampling Strategy:** We will use a stratified random sampling method. This involves dividing the target population into two strata: former employees and current employees. Within each stratum, we will randomly select participants to ensure a representative sample of both groups. This strategy allows us to compare perspectives from those who have left and those who are still with the company.
+Overall Sampling Strategy: Implement a stratified random sampling approach, with separate strata for former and current employees. Randomly select participants within each stratum to ensure a balanced representation of perspectives from both groups.
+`
 
 Your 5-10 question survey:
 ```
-1. What was your primary reason for leaving the company?
-2. How satisfied are you with your current role in the company?
-3. What factors contribute most to your job satisfaction?
-4. How often did/do you feel stressed at work?
+1. What was the primary reason for your departure from the company?
+ - Better career opportunities
+ - Lack of career growth
+ - Poor management
+ - Personal reasons
+ - Other (please specify): ___________
+2. How satisfied are you with your current employment situation?
+ - Very satisfied
+ - Satisfied
+ - Neutral
+ - Dissatisfied
+ - Very dissatisfied
+3. What factors most significantly contribute to your job satisfaction? (Select all that apply)
+ - Work-life balance
+ - Compensation
+ - Career advancement opportunities
+ - Work environment
+ - Recognition and rewards
+ - Other (please specify): ______________
+4. How frequently do you experience stress at work?
+ - Never
+ - Rarely
+ - Sometimes
+ - Often
+ - Always
 5. How would you rate the support and resources provided by the company to help you succeed in your role?
-6. How likely are you to recommend this company as a good place to work to your friends and colleagues?
-7. How effective do you find the communication within your team and with management?
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+ - Excellent
+ - Good
+ - Average
+ - Poor
+ - Very poor
+6. How likely are you to recommend this company as a great place to work to others?
+ - Extremely likely
+ - Likely
+ - Neutral
+ - Unlikely
+ - Extremely unlikely
+7. How effective is the communication within your team and with management?
+ - Very effective
+ - Effective
+ - Neutral
+ - Ineffective
+ - Very ineffective
+8. What improvements would you suggest for the company to enhance employee satisfaction?
+ - [Open text field]
+9. How would you rate the company’s response to employee feedback?
+ - Excellent
+ - Good
+ - Fair
+ - Poor
+ - Very poor
+10. Do you have any additional comments or suggestions?
+ - [Open text field]
 ```
 
 ## Rubric
