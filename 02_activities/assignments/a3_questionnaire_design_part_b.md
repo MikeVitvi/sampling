@@ -4,19 +4,28 @@
 1. Comment on the quality of your sample. Do you expect it to be representative of your target population? Why or why not?
 
     ```
-    write your answer here...
+    The quality of the sample is expected to be reasonably representative of the target population, which consists of both former and current entry and lower level employees in the tech company. By using a stratified random sampling method, we ensure that we have a balanced representation from both groups. However, there may be some limitations due to potential non-response bias from former employees who might be less likely to participate in the survey. Additionally, the sample may not fully capture the diversity of experiences within the target population if certain subgroups (e.g., those who left due to specific issues) are underrepresented.
     ```
 
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
 
     ```
-    write your answer here...
+    Based on the class content, several improvements were made to the original survey to enhance its quality and
+    effectiveness:
+
+Question Clarity and Specificity: Revised the questions to be more specific and to provide a range of answer options to capture a broader spectrum of responses. This aims to reduce ambiguity and improve the precision of the data collected.
+Inclusivity: Added response options to ensure that all potential factors influencing employee satisfaction are considered, making the survey more comprehensive.
+Survey Structure: Enhanced the structure of questions for better readability and to facilitate a more user-friendly experience for respondents.
+
+The revised survey can be viewed here: [Revised Questionnaire Design (Part A)](https://github.com/MikeVitvi/sampling/pull/3/commits/4e2b47656af43bb81a8789505a8455faa6a14273).
+
     ```
 
 3. Could the purpose of your survey have been fulfilled through an observational study? If yes, how? If no, why not?
 
     ```
-    write your answer here...
+    The purpose of this survey—understanding reasons behind high turnover rates and factors affecting employee satisfaction—would not have been fully achieved through an observational study alone. Observational studies are useful for examining behavior and interactions but would not provide direct insights into personal opinions and reasons for leaving the company. Surveys, on the other hand, allow for the collection of specific, subjective feedback from employees, which is crucial for identifying underlying issues and areas for improvement.
+
     ```
 
 ## Why am I doing this assignment?
